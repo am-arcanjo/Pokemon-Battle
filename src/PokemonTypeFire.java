@@ -7,6 +7,14 @@ public class PokemonTypeFire extends PokemonType {
 
     @Override
 	public void takeDamage(PokemonType type) {
-		System.out.println("This Pokemon Type is Fire");
+		String typeName = type.getName();
+        switch(typeName){
+            case "Grass":
+            case "Fire":
+                System.out.println("It's not very effective");
+                break;
+            case "Water":
+                System.out.println("It's super effective!");
+        }
 	}
 }

@@ -24,6 +24,8 @@ public class Main {
         venusaur.setType(grass);
 
         blastoise.takeDamage(grass);
+        charizard.takeDamage(water);
+        venusaur.takeDamage(fire);
  
     }
 }
