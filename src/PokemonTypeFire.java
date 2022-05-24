@@ -1,6 +1,9 @@
 package src;
 
 public class PokemonTypeFire extends PokemonType {
+	public PokemonTypeFire(){
+		this.name = "Fire";
+	}
 
     @Override
 	public void takeDamage(PokemonType type) {
